@@ -68,3 +68,10 @@ int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
 ```
 
 The connect() system call connects the socket referred to by the file descriptor sockfd to the address specified by addr. Server’s address and port is specified in addr.
+
+#TCP-IP
+
+#### Diagram for server and client model
+
+![](ressources/Socket_TCP-IP.png)
+
